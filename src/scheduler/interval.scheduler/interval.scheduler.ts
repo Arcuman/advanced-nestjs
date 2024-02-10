@@ -45,7 +45,7 @@ export class IntervalScheduler
           return;
         }
 
-        this.intervals.push(setInterval(() => instance[methodKey](), interval));
+        // this.intervals.push(setInterval(() => instance[methodKey](), interval));
       });
     });
   }
